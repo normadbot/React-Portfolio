@@ -1,0 +1,19 @@
+.mediacard-root {
+  max-width: 345px;
+}
+
+.MuiTypography-h5 {
+  color: #fff !important;
+}
+.MuiTypography-body2 {
+  color: #fff !important;
+}
+.MuiPaper-root {
+  background-color: #4e4a4a !important;
+}
+.MuiCardMedia-root {
+  height: 140px !important;
+}
+.MuiButton-textPrimary {
+  color: #35b3b3 !important;
+}

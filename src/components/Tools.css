@@ -1,0 +1,66 @@
+.tools {
+    position: relative;
+    height: 60%;
+    width: 40%;
+    left: 750px;
+    top: -600px;
+}
+.tools-avatar {
+  width: auto;
+  height: 59%;
+  justify-content: center;
+  display: flex;
+  margin-left: 100px;
+}
+.tools-avatarimage {
+  position: absolute;
+  width: 15.625rem !important;
+  height: 15.625rem !important;
+  border: 0.3125rem solid #f4f4f4;
+}
+.tools-dogeimage {
+  position: absolute;
+  width: 7em !important;
+  height: 7em !important;
+  border: 0.3125rem solid #f4f4f4;
+  margin: 18vh !important;
+  margin-left: -4em !important;
+  background: darkgray !important;
+}
+.tools-list {
+  width: auto;
+  height: 24%;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+.tools-icon {
+  font-size: 2rem;
+  color: #fff;
+}
+.tools-title {
+  color: #fff;
+  margin-left: 200px !important;
+}
+.tools-line {
+  width: 200px;
+  border: 0.000001rem solid #35b3b3;
+}
+.tools-social {
+  justify-content: space-around;
+  display: flex;
+}
+.tools-button {
+  color: #ffffff !important;
+  margin: 2rem auto !important;
+  background-color: #35b3b3 !important;
+}
+#viewResumeButton.MuiTouchRipple-root:hover {
+  background: #35b3b3;
+}
+.tools-buttondiv {
+  display: flex;
+}
+#viewResumeButton.MuiButton-root:hover {
+  background: #206464 !important;
+
+}

@@ -1,0 +1,22 @@
+.project {
+  position: relative;
+  background: #303030;
+  width: 100%;
+  height: 100vh;
+  margin-top: 350px;
+}
+.project-title {
+  position: absolute;
+  top: -10rem;
+  flex: 1;
+  color: #fff;
+  padding-left: 42%;
+  align-items: center;
+}
+.MuiTypography-h2 {
+    text-underline-position: below !important;
+    text-underline-offset: 20px;
+    text-decoration-thickness: initial;
+    text-decoration: underline  !important;
+    text-decoration-color: #35b3b3 !important;
+}

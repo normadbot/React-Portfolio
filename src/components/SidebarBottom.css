@@ -1,0 +1,6 @@
+.MuiTypography-body1 {
+  color: #fff;
+}
+.MuiButtonBase-root:hover {
+    background-color: rgba(228, 222, 222, 0.1) !important;
+  }

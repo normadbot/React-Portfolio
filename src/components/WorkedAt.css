@@ -1,0 +1,29 @@
+.workedAt-title {
+  position: absolute;
+  top: 45rem;
+  flex: 1;
+  color: #fff;
+  padding-left: 42%;
+  align-items: center;
+}
+.MuiTypography-h2 {
+  text-underline-position: below !important;
+  text-underline-offset: 20px;
+  text-decoration-thickness: initial;
+  text-decoration: underline !important;
+  text-decoration-color: #35b3b3 !important;
+}
+.stylingLogo {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  left: 33vh;
+  top: -10vh;
+}
+.logoImg {
+  height: 30px;
+}
+.logoImgwipro {
+  height: 80px;
+  filter: grayscale(1) invert(1) brightness(1);
+}

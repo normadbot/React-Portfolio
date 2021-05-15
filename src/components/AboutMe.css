@@ -1,0 +1,31 @@
+.aboutme {
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  position: absolute;
+  background-color: #303030;
+  top: 300vh;
+}
+
+.aboutme-title {
+  position: absolute;
+  top: 1rem;
+  flex: 1;
+  color: #fff;
+  padding-left: 42%;
+  align-items: center;
+}
+
+.aboutme-divider{
+  position: relative;
+  align-items: center;
+  margin-top: -350px;
+  justify-content: center;
+  opacity: 0.4;
+  height: 600px;
+  width: 0.00625px;
+  border: 0.000001rem solid #35b3b3;
+}
+.aboutme-timelines{
+  width: 100%;
+}

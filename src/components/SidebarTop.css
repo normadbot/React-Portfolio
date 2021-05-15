@@ -1,0 +1,38 @@
+.sidebartop {
+  width: max-content;
+  position: absolute;
+}
+.sidebartop-image {
+  width: 10px;
+  border-radius: 2em;
+  padding-left: 60px;
+  padding-top: 10px;
+}
+.sidebartop-image > img {
+  width: 8em;
+  height: 8em;
+  border-radius: 8em;
+  border: 0.3125rem solid #f4f4f4;
+}
+.sidebar-namediv {
+  padding-left: 40px;
+}
+.sidebar-name {
+  color: #fff;
+}
+.sidebar-title {
+  padding-left: 25px;
+  font-size: small;
+  color: #fff;
+}
+.sidebar-location {
+  padding-top: 4px;
+  padding-left: 28px;
+  font-size: smaller;
+  color: #fff;
+}
+.MuiIconButton-root{
+    display: table-cell !important;
+    left: 60px !important;
+    top: 10px !important;
+}
