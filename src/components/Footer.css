@@ -1,9 +1,10 @@
 .footer{
-    position: relative;
+    bottom: 0;
+    position: fixed;
     background: #212121;
-    top: 100rem;
-    padding-top: 3.75rem;
-    padding-bottom: 3.75rem;
+    width: 100%;
+    padding-top: 1.95rem;
+    padding-bottom: 1.90rem;
     color: #fff;
 
 }

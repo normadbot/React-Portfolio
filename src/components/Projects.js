@@ -6,7 +6,7 @@ import WorkedAt from "./WorkedAt";
 function Projects() {
   return (
     <React.Fragment>
-      <section className="project">
+      <section id="project" className="project">
         <div className="project-title">
           <Typography variant="h2" className="project-titlestyle">
             Projects

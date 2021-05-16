@@ -1,4 +1,4 @@
-import { Typography } from "@material-ui/core";
+import { Grid, Typography } from "@material-ui/core";
 import React from "react";
 import "./AboutMe.css";
 import TimeLines from "./TimeLines";
@@ -6,18 +6,23 @@ import Tools from "./Tools";
 
 function AboutMe() {
   return (
-    <React.Fragment>
-      <div className="aboutme">
-        <Typography variant="h2" className="aboutme-title">
-          About Me
-        </Typography>
-        <div className='aboutme-timelines'>
+    <Grid id="aboutMe" container className="aboutme-outergrid">
+      <Grid item className="aboutme-titlegrid">
+        <Typography variant="h2">About Me</Typography>
+      </Grid>
+
+      <Grid container className="aboutme-allgrid">
+        <Grid item className="aboutme-timeline">
           <TimeLines />
-        </div>
-        <hr className="aboutme-divider" size="20px" />
-        <Tools />
-      </div>
-    </React.Fragment>
+        </Grid>
+        <Grid item className="aboutme-divider">
+          <hr className="aboutme-dividerline" size="20px" />
+        </Grid>
+        <Grid item className="aboutme-tools">
+          <Tools />
+        </Grid>
+      </Grid>
+    </Grid>
   );
 }
 

@@ -51,7 +51,7 @@ function Navbar() {
       >
         <SidebarTop />
         <Divider />
-        <SidebarBottom />
+        <SidebarBottom onButtonClick={toggleDrawer(false)}/>
       </Drawer>
     </nav>
   );

@@ -1,22 +1,4 @@
-.aboutme {
-  height: 100%;
-  width: 100%;
-  align-items: center;
-  position: absolute;
-  background-color: #303030;
-  top: 300vh;
-}
-
-.aboutme-title {
-  position: absolute;
-  top: 1rem;
-  flex: 1;
-  color: #fff;
-  padding-left: 42%;
-  align-items: center;
-}
-
-.aboutme-divider{
+.aboutme-divider {
   position: relative;
   align-items: center;
   margin-top: -350px;
@@ -26,6 +8,51 @@
   width: 0.00625px;
   border: 0.000001rem solid #35b3b3;
 }
-.aboutme-timelines{
+.aboutme-timelines {
   width: 100%;
+}
+.aboutme-outergrid {
+  top: 179rem;
+    position: absolute;
+}
+.aboutme-titlegrid {
+  height: 20%;
+  width: auto;
+  color: #fff;
+  margin-inline: auto !important;
+}
+.aboutme-allgrid {
+  width: 100%;
+  min-height: 700px;
+  height: 1000px;
+  flex-direction: column;
+}
+.aboutme-timeline {
+  position: relative;
+  width: 45%;
+  height: 850px;
+  border: none;
+}
+.aboutme-divider {
+  position: relative;
+  width: 10%;
+  height: auto;
+  border: none;
+  top: 500px;
+}
+.aboutme-tools {
+  position: relative;
+  height: 850px;
+  border: none;
+  width: 45%;
+}
+.aboutme-dividerline{
+   position: relative;
+  align-items: center;
+  margin-top: -350px;
+  justify-content: center;
+  opacity: 0.4;
+  height: 650px;
+  width: 0.00625px;
+  border: 0.000001rem solid #35b3b3;
 }

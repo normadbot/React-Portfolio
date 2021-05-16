@@ -2,6 +2,7 @@ import React from "react";
 import { Timeline, TimelineEvent } from "react-event-timeline";
 import "./TimeLines.css";
 import { aboutMedata } from "./data/AboutMeData";
+import { Grid } from "@material-ui/core";
 
 const styles = {
   createAtStyle: {
@@ -51,10 +52,10 @@ const styles = {
 
 function TimeLines() {
   return (
-    <React.Fragment>
-      <Timeline lineColor="rgb(53, 179, 179)" style={styles.colorWhite}>
+    <Grid className='timelineGrid'>
+      <Timeline className='timelineevent' lineColor="rgb(53, 179, 179)" style={styles.colorWhite}>
         {aboutMedata.map((me) => (
-          <TimelineEvent
+          <TimelineEvent 
             key={me.date}
             title={me.title}
             titleStyle={styles.createAtStyle}
@@ -68,7 +69,8 @@ function TimeLines() {
           </TimelineEvent>
         ))}
       </Timeline>
-    </React.Fragment>
+      </Grid>
+    
   );
 }
 

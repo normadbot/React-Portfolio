@@ -6,7 +6,7 @@ import { FaCoffee, FaCode } from "react-icons/fa";
 function Hero() {
   return (
     <React.Fragment>
-      <div className="hero">
+      <div id='hero' className="hero">
         <div className="hero-imagedcontainer">
           <Container className="hero-contextcontainer">
             <Typography variant="h1" className="hero-content">

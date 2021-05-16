@@ -41,7 +41,7 @@ function GoogleMaps() {
       });
   return (
     <React.Fragment>
-      <div className="googlemap">
+      <div id="googlemap" className="googlemap">
         <DeckGL
           initialViewState={INITIAL_VIEW_STATE}
           height="80%"

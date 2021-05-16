@@ -1,13 +1,12 @@
 .tools {
     position: relative;
     height: 60%;
-    width: 40%;
-    left: 750px;
-    top: -600px;
+    top:150px
+    
 }
 .tools-avatar {
   width: auto;
-  height: 59%;
+  height: 70%;
   justify-content: center;
   display: flex;
   margin-left: 100px;
@@ -39,7 +38,8 @@
 }
 .tools-title {
   color: #fff;
-  margin-left: 200px !important;
+  display: flex;
+  justify-content: center;
 }
 .tools-line {
   width: 200px;
