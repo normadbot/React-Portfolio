@@ -1,10 +1,24 @@
-# Getting Started with Create React App
+React Portfolio Dummy 
 
 Temporaray deployement on https://dogwood-keep-218818.web.app/
 
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
+
+Some Images are :
+
+![Portfolio-dummy1](https://user-images.githubusercontent.com/37356059/118529542-4149d300-b761-11eb-92ea-fe7ace293f00.jpg)
+
+![Portfolio-Dummy](https://user-images.githubusercontent.com/37356059/118530131-ed8bb980-b761-11eb-8ffa-eee09d713c99.jpg)
+
+![Portfolio-dummy2](https://user-images.githubusercontent.com/37356059/118530231-0c8a4b80-b762-11eb-975a-70cdf0745cb5.jpg)
+
+
+
+
 
 ## Available Scripts
 
